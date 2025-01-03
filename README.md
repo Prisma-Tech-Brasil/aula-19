@@ -1,63 +1,75 @@
-# Aula: HTML Básico - Tags Semânticas e Estruturais
 
-Bem-vindo à aula sobre **tags semânticas e estruturais** no HTML! Aqui, você aprenderá a importância dessas tags para organizar e dar significado ao conteúdo das páginas web.
+# README: Aula sobre Listas no HTML
 
----
-
-## 📝 **Objetivos da Aula**
-- Entender o que são tags semânticas e sua importância.
-- Aprender a diferença entre tags semânticas e não semânticas.
-- Explorar as principais tags semânticas, como `<main>`, `<header>`, `<footer>`, e outras.
-- Conhecer o uso de tags genéricas como `<div>` e `<span>`.
+Este arquivo descreve o conteúdo da aula de Listas no HTML, detalhando os tipos, usos e boas práticas para aplicação de listas em documentos web.
 
 ---
 
-## 📚 **Conteúdo da Aula**
+## **Conteúdo da Aula**
 
-### 1. **O que são Tags Semânticas?**
-- Tags que têm um significado claro e ajudam a descrever o propósito do conteúdo.
-- Melhoram a acessibilidade e SEO, tornando a página mais compreensível para navegadores e motores de busca.
-
-### 2. **Principais Tags Semânticas**
-- **`<header>`**: Representa o cabeçalho de uma página ou seção. Geralmente contém logotipo, título, menu de navegação.
-- **`<main>`**: Define o conteúdo principal da página.
-- **`<section>`**: Representa uma seção genérica dentro de uma página.
-- **`<article>`**: Indica um conteúdo independente, como posts de blog ou artigos de notícias.
-- **`<aside>`**: Representa conteúdo complementar, como barras laterais ou widgets.
-- **`<footer>`**: Indica o rodapé de uma página ou seção, contendo informações como créditos ou links de rodapé.
-- **`<nav>`**: Define uma área de navegação, como menus ou links para outras páginas.
-
-### 3. **Tags Não Semânticas**
-- **`<div>`**: Usada para agrupar elementos. Não tem significado próprio, mas é útil para layout e organização.
-- **`<span>`**: Usada para estilizar ou identificar pequenas partes do texto.
-
-### 4. **Boas Práticas**
-- Use tags semânticas sempre que possível para melhorar a estrutura e acessibilidade.
-- Utilize `<div>` apenas para organização genérica e `<span>` para estilização dentro de textos.
-- Organize o código com identação e comentários.
+1. **Introdução**: Compreensão do conceito e importância das listas no HTML.
+2. **Tipos de Listas**:
+   - Ordenadas (`<ol>`)
+   - Não Ordenadas (`<ul>`)
+   - Listas de Definição (`<dl>`, `<dt>`, `<dd>`)
+3. **Aninhamento de Listas**: Como criar listas dentro de outras listas para representar estruturas hierárquicas.
+4. **Boas Práticas**:
+   - Escolha correta do tipo de lista.
+   - Conteúdo descritivo e acessível.
+   - Evitar estruturas excessivamente complexas.
+5. **Exemplos Práticos**:
+   - Demonstração de cada tipo de lista com códigos e resultados visualizados.
 
 ---
 
-## 🛠️ **Atividade Prática**
-1. Crie um arquivo chamado `tags-semanticas.html`.
-2. Construa uma estrutura básica de página com:
-   - Um `<header>` contendo um título e um menu de navegação.
-   - Um `<main>` com duas `<section>`s:
-     - A primeira com um `<article>` (um post ou conteúdo principal).
-     - A segunda com um `<aside>` (informações complementares, como links).
-   - Um `<footer>` com links para redes sociais.
-3. Use `<div>` para agrupar seções quando necessário e `<span>` para destacar palavras em parágrafos.
+## **Objetivo da Aula**
+
+Ensinar a criar e estilizar listas no HTML, ajudando os alunos a entenderem:
+- Quando usar cada tipo de lista.
+- Como organizar informações de forma clara e hierárquica.
+- Melhores práticas para estruturação de conteúdo.
 
 ---
 
-## 🌟 **Recursos Extras**
-- [Documentação HTML no MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
-- [HTML Semântico no W3Schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
-- [Testar HTML no CodePen](https://codepen.io/)
+## **Estrutura do Material Didático**
+
+O material está dividido em seções:
+
+### **1. Listas Ordenadas**
+- Uso da tag `<ol>`.
+- Definição de atributos como `type` e `start`.
+- Exemplo prático de listas numeradas e alfabetizadas.
+
+### **2. Listas Não Ordenadas**
+- Uso da tag `<ul>`.
+- Estilos de marcadores como `disc`, `circle`, e `square`.
+- Exemplos de listas simples e estilizadas.
+
+### **3. Listas de Definição**
+- Uso das tags `<dl>`, `<dt>` e `<dd>`.
+- Aplicações para glossários, termos e definições.
+
+### **4. Listas Aninhadas**
+- Combinação de listas ordenadas e não ordenadas.
+- Organização hierárquica e visualmente clara.
+
+### **5. Exemplo Completo**
+Inclui um documento HTML com exemplos aplicados de todos os tipos de lista, prontos para estudo e modificação pelos alunos.
 
 ---
 
-## 📅 **Próximos Passos**
-- Após aprender sobre estrutura e semântica, vamos avançar para **CSS**, onde você aprenderá a estilizar suas páginas.
+## **Como Usar Este Material**
 
-🚀 **Pratique bastante e domine as bases do HTML semântico!**
+1. **Acesse os Exempos:** Pratique inserindo os códigos em um editor HTML.
+2. **Edite e Teste:** Modifique os exemplos para entender como os atributos funcionam.
+3. **Aplique em Projetos:** Use listas para organizar informações em suas próprias páginas web.
+
+---
+
+## **Recomendações Adicionais**
+
+- Consulte a documentação oficial do [MDN Web Docs sobre listas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul).
+- Explore combinações com CSS para estilizar suas listas.
+- Pratique diferentes casos de uso para listas aninhadas.
+
+Este material serve como um guia inicial e referência para uso em projetos futuros.
